@@ -30,7 +30,7 @@
 
 
   
-  <title>GLZ&#39;s Blog</title>
+  <title>归档: 2026/2 | GLZ&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="preload" href="/css/fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
@@ -39,7 +39,7 @@
   <meta name="description" content="我常常追忆过去。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="GLZ&#39;s Blog">
-<meta property="og:url" content="https://glz6.github.io/index.html">
+<meta property="og:url" content="https://glz6.github.io/archives/2026/02/index.html">
 <meta property="og:site_name" content="GLZ&#39;s Blog">
 <meta property="og:description" content="我常常追忆过去。">
 <meta property="og:locale" content="zh_CN">
@@ -68,7 +68,7 @@
   
    
   <div id="main-grid" class="  ">
-    <div id="nav" class=" is_home "  >
+    <div id="nav" class=""  >
       <navbar id="navbar">
   <nav id="title-nav">
     <a href="/">
@@ -171,241 +171,46 @@
 </sidebar>
     </div>
     <div id="content-body">
-      
-   
+       
 
-
-<article id="post-260215" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-   
-  <div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2026/02/15/260215/">Python 文件判重脚本 By Qwen</a>
-      </h1>
-    
-  
-</div>
-
-        <div class='meta-info-bar'>
-          <div class="meta-info">
-  <time class="dt-published" datetime="2026-02-15T06:35:30.000Z" itemprop="datePublished">2026-02-15</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-    未分类 
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            3.6k 词 
-          </div>
-        </div>
-        
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          <div class="truncate-text">
-            
-              123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136137138139#!/usr/bin/env python3# -*- coding: utf-8 -*-import sysimport osimport ctypesimport hashlibimport timefrom pathlib import Pathfrom collections import defaultdict# === 修复 Windows 中文乱码 ===if...
-            
-          </div>
-        
-      </div>
-
-         
+<div class="archive-main-card">
+    <div class="archive-top">
+      <div class="main-title-bar">
+        <div class="main-title-dot"></div>
+        <h1 class="article-title">归档</h1>
+      </div>    
     </div>
     
-     
-    <a class="right-panel  non-pic  "
+    
       
-      href="/2026/02/15/260215/" 
-    >
-       
-      <i class="fa-solid fa-angle-right non-pic"></i>
-       
-    </a>
-     
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-   
-
-
-<article id="post-abc437" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-   
-  <div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
+      
         
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2025/12/27/abc437/">AtCoder ABC437 F题解析：曼哈顿距离与切比雪夫距离的转化</a>
-      </h1>
-    
-  
-</div>
-
-        <div class='meta-info-bar'>
-          <div class="meta-info">
-  <time class="dt-published" datetime="2025-12-27T07:20:59.000Z" itemprop="datePublished">2025-12-27</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-    未分类 
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            1.5k 词 
-          </div>
+        <div class="year-line">
+            <div class="year-num">2026</div>
+            <div class="dot-wrapper">
+                <div class="dot"></div>
+            </div>
+            <div class="article-count">1 篇文章</div>
         </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/AtCoder/" rel="tag">AtCoder</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          <div class="truncate-text">
-            
-              A~E 都是简单的拼手速题，这里不再赘述，重点放在 F 题的思路解析。F 考察两个知识点，一是切比雪夫距离，二是线段树，如果会这两个算法，那么可以说这道题就是一道模板题。
-切比雪夫距离，在二维平面中定义：如果在平面中有两个点 A(x1,y1),B(x2,y2)A(x_1,y_1), B(x_2,y_2)A(x1​,y1​),B(x2​,y2​) ，那么 A,BA, BA,B 之间的切比雪夫距离为 max(x1−x2,y1−y2)max(x_1-x_2,y_1-y_2)max(x1​−x2​,y1​−y2​) 。
-那么它有什么作用呢？
-注意到
-=∣x1−x2∣+∣y1−y2∣=max⁡{x1−x2,−(x1−x2)}+max⁡{y1−y2,−(y1−y2)}=max⁡{x1−x2+y1−y2,x1−x2−y1+y2,−x1+x2+y1−y2,−x1+x2−y1+y2}=max⁡{max⁡{(x1+y1)−(x2+y2),−(x1+y1)+(x2+y2)},max⁡{(x1−y1)−(x2−y2),−(x2−y1)+(x2−y1)}}=max⁡{∣(x1+y1)−(x2+y2)∣,∣...
-            
-          </div>
-        
-      </div>
-
-         
-    </div>
-    
-     
-    <a class="right-panel  non-pic  "
       
-      href="/2025/12/27/abc437/" 
-    >
-       
-      <i class="fa-solid fa-angle-right non-pic"></i>
-       
-    </a>
-     
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-   
-
-
-<article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-   
-  <div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2025/12/21/hello-world/">你好世界</a>
-      </h1>
-    
-  
-</div>
-
-        <div class='meta-info-bar'>
-          <div class="meta-info">
-  <time class="dt-published" datetime="2025-12-21T02:43:23.335Z" itemprop="datePublished">2025-12-21</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-    未分类 
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            367 词 
-          </div>
+      <a class="archive-article-link" href="/2026/02/15/260215/" title="Python 文件判重脚本 By Qwen">
+        <div class="date">02-15</div>
+        <div class="line">
+            <div class="dot"></div>
         </div>
-        
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          <div class="truncate-text">
+        <div class="title">
+            <div class="title-inner">
+                
+                    Python 文件判重脚本 By Qwen
+                
+            </div>
+        </div>
+        <div class="tags">
             
-              Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
-
-More info: Writing
-Run server1$ hexo server
-
-More info: Server
-Generate static files1$ hexo generate
-
-More info: Generating
-Deploy to remote sites1$ hexo deploy
-
-More info: Deployment
-
-            
-          </div>
-        
-      </div>
-
-         
-    </div>
+        </div>
+      </a>
     
-     
-    <a class="right-panel  non-pic  "
-      
-      href="/2025/12/21/hello-world/" 
-    >
-       
-      <i class="fa-solid fa-angle-right non-pic"></i>
-       
-    </a>
-     
   </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
     </div>
     <div id="footer-wrapper">
       <footer id="footer">
