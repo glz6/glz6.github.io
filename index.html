@@ -175,6 +175,78 @@
    
 
 
+<article id="post-260306" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+   
+  <div class="article-inner">
+    <div class="article-main">
+      <header class="article-header">
+        
+<div class="main-title-bar">
+  <div class="main-title-dot"></div>
+  
+    
+      <h1 itemprop="name">
+        <a class="p-name article-title" href="/2026/03/06/260306/">Logi 鼠标 AutoHotKey 自定义侧键</a>
+      </h1>
+    
+  
+</div>
+
+        <div class='meta-info-bar'>
+          <div class="meta-info">
+  <time class="dt-published" datetime="2026-03-06T11:12:36.000Z" itemprop="datePublished">2026-03-06</time>
+</div>
+          <div class="need-seperator meta-info">
+            <div class="meta-cate-flex">
+  
+    未分类 
+   
+</div>
+  
+          </div>
+          <div class="wordcount need-seperator meta-info">
+            823 词 
+          </div>
+        </div>
+        
+      </header>
+      <div class="e-content article-entry" itemprop="articleBody">
+        
+          <div class="truncate-text">
+            
+              侧键+滚动，切换虚拟桌面；侧键单击，Alt + Tab。
+123456789101112131415161718192021222324252627282930313233343536373839404142#Requires AutoHotkey v2.0#SingleInstance Force; 1. 自动提权：Alt+Tab 和 虚拟桌面切换都需要管理员权限if !A_IsAdmin &#123;    Run(&#x27;*RunAs &quot;&#x27; A_ScriptFullPath &#x27;&quot;&#x27;)    ExitApp&#125;; 优化性能ProcessSetPriority &quot;High&quot;; --- 核心功能 1：侧键 + 滚轮 = 切换虚拟桌面 ---; 你的硬件已将其转换为 WheelLeft/RightWheelLeft:: &#123;    SendEvent &quot;^#&#123;Left&#125;&quot;    ShowStatus(&quot;&lt;&lt;&lt; 桌面向左&quo...
+            
+          </div>
+        
+      </div>
+
+         
+    </div>
+    
+     
+    <a class="right-panel  non-pic  "
+      
+      href="/2026/03/06/260306/" 
+    >
+       
+      <i class="fa-solid fa-angle-right non-pic"></i>
+       
+    </a>
+     
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+   
+
+
 <article id="post-260215" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
    
   <div class="article-inner">
