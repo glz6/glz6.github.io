@@ -3,3 +3,15 @@ locale = 'en-us'
 title = 'My New Hugo Project'
 theme = "PaperMod"
 publishDir = "docs"
+
+[params]
+  math = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$']]
+          inline = [['$', '$']]
