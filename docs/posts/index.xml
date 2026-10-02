@@ -6,6 +6,16 @@
     <description>Recent content in Posts on My New Hugo Project</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 02 Oct 2026 22:26:29 +0800</lastBuildDate>
     <atom:link href="https://glz6.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test_post</title>
+      <link>https://glz6.github.io/posts/test_post/</link>
+      <pubDate>Fri, 02 Oct 2026 22:26:29 +0800</pubDate>
+      <guid>https://glz6.github.io/posts/test_post/</guid>
+      <description>&lt;h3 id=&#34;hello-world&#34;&gt;Hello, World!&lt;/h3&gt;
+&lt;p&gt;test&lt;/p&gt;
+&lt;p&gt;$KaTeX$&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
